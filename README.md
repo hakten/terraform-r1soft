@@ -6,8 +6,8 @@
 
 ```
 git clone https://github.com/hakten/terraform-r1soft.git
-cd infrastructure/jenkins/
-ls configurations
+cd terraform-r1soft
+cd configurations
 ```
 
 ### Region
@@ -41,4 +41,8 @@ It will set a proper backend.tf file for us. Next run (by changing region of cou
 ```
 terraform apply -var-file configurations/YOUR_REGION/jenkins.tfvars
 ```
+
+### Defaults
+--user admin 
+--pass p@ssw4rd
 
